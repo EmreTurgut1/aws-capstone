@@ -12,7 +12,7 @@ git clone https://$TOKEN@github.com/EmreTurgut1/aws-capstone.git
 cd /home/ubuntu/aws-capstone
 apt-get install python3.10-dev default-libmysqlclient-dev -y 
 pip3 install -r requirements.txt
-cd /home/ubuntu/aws-capstone-project/src
+cd /home/ubuntu/aws-capstone/src
 python3 manage.py collectstatic --noinput
 python3 manage.py makemigrations
 python3 manage.py migrate
